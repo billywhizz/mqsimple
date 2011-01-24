@@ -1,0 +1,10 @@
+; BinaryFile.def : Declares the module parameters.
+
+LIBRARY      "mqsimple.DLL"
+
+EXPORTS
+	mqacquire
+	mqget
+	mqput
+	mqclose
+	mqrelease

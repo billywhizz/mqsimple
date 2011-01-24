@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mqsimple", "mqsimple.vcproj", "{3B41CE90-20E8-40CE-8D41-ABBEE60F5F53}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtest", "qtest.vcproj", "{6F518EB8-B701-441B-B1F8-A2661863CD1C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3B41CE90-20E8-40CE-8D41-ABBEE60F5F53}.Debug.ActiveCfg = Debug|Win32
+		{3B41CE90-20E8-40CE-8D41-ABBEE60F5F53}.Debug.Build.0 = Debug|Win32
+		{3B41CE90-20E8-40CE-8D41-ABBEE60F5F53}.Release.ActiveCfg = Release|Win32
+		{3B41CE90-20E8-40CE-8D41-ABBEE60F5F53}.Release.Build.0 = Release|Win32
+		{6F518EB8-B701-441B-B1F8-A2661863CD1C}.Debug.ActiveCfg = Debug|Win32
+		{6F518EB8-B701-441B-B1F8-A2661863CD1C}.Debug.Build.0 = Debug|Win32
+		{6F518EB8-B701-441B-B1F8-A2661863CD1C}.Release.ActiveCfg = Release|Win32
+		{6F518EB8-B701-441B-B1F8-A2661863CD1C}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
